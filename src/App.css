@@ -1,0 +1,62 @@
+html {
+  background-image: url("C:\\Users\\vibhor bhatia\\Downloads\\front end project\\glasspage\\src\\backgroundimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  height: 80vh;
+  width: 80vw;
+  background-color: black;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.2px);
+  -webkit-backdrop-filter: blur(11.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.navbar{
+
+  padding: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.navbar p{
+  margin: auto;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.describe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  font-size: 35px;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.describe h1{
+  margin: 0px;
+}
